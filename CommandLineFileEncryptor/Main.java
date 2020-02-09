@@ -1,5 +1,3 @@
-
-package edu.gatech.seclass.encode;
 import sun.awt.SunHints;
 import javax.naming.PartialResultException;
 import java.io.*;
