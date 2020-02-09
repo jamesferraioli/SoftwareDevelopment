@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="edu.gatech.seclass.words6300.SettingsMenu">
+
+    <EditText
+        android:id="@+id/txtmaxTurns"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="99dp"
+        android:layout_marginTop="63dp"
+        android:ems="10"
+        android:inputType="number"
+        android:hint="Max Turns"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="265dp"
+        android:layout_height="101dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="74dp"
+        android:layout_marginTop="248dp"
+        android:text="To change the count of a letter available in the letter pool, please fill out the two boxes below. Put the letter you would like to change and the count of that letter that you would like to change it to." />
+
+    <EditText
+        android:id="@+id/letterField"
+        android:layout_width="87dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="39dp"
+        android:layout_marginTop="373dp"
+        android:ems="10"
+        android:hint="Letter"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/countField"
+        android:layout_width="122dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="373dp"
+        android:layout_marginEnd="159dp"
+        android:layout_marginBottom="315dp"
+        android:ems="10"
+        android:hint="Count"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/maxTurnButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="141dp"
+        android:onClick="clickMaxTurns"
+        android:text="Change max turns" />
+
+    <Button
+        android:id="@+id/letterPoolChangeButton"
+        android:layout_width="117dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="364dp"
+        android:layout_marginEnd="38dp"
+        android:onClick="ClickChangeLetterCount"
+        android:text="Change letter count" />
+
+</RelativeLayout>

@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:orientation="vertical" android:layout_width="match_parent"
+
+    android:layout_height="match_parent">
+
+
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+
+        android:layout_height="match_parent">
+
+
+
+        <Button
+
+            android:id="@+id/playButton"
+
+            android:layout_width="112dp"
+
+            android:layout_height="38dp"
+
+            android:layout_alignParentEnd="true"
+
+            android:gravity="center"
+
+            android:layout_alignParentBottom="true"
+
+            android:layout_marginEnd="40dp"
+
+            android:layout_marginBottom="85dp"
+
+            android:text="Play Word" />
+
+
+
+        <EditText
+
+            android:id="@+id/wordToPlay"
+
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+
+            android:layout_alignParentStart="true"
+
+            android:layout_alignParentBottom="true"
+
+            android:gravity="center"
+
+            android:layout_marginStart="33dp"
+
+            android:layout_marginBottom="80dp"
+
+            android:ems="10"
+
+            android:hint="Word to Play"
+
+            android:inputType="textCapCharacters" />
+
+        <Button
+
+            android:id="@+id/swapRack"
+
+            android:layout_width="163dp"
+
+            android:layout_height="98dp"
+
+            android:layout_alignParentStart="true"
+
+            android:gravity="center"
+
+            android:layout_alignParentBottom="true"
+
+            android:layout_marginStart="34dp"
+
+            android:layout_marginBottom="152dp"
+
+            android:text="Swap Rack" />
+
+
+
+        <Button
+
+            android:id="@+id/viewPool"
+
+            android:layout_width="149dp"
+
+            android:layout_height="98dp"
+
+            android:layout_alignParentEnd="true"
+
+            android:gravity="center"
+
+            android:layout_alignParentBottom="true"
+
+            android:layout_marginEnd="45dp"
+
+            android:layout_marginBottom="148dp"
+
+            android:text="View Pool" />
+
+
+
+        <TextView
+
+            android:id="@+id/viewPoolLetters"
+
+            android:layout_width="338dp"
+
+            android:layout_height="96dp"
+
+            android:layout_alignParentStart="true"
+
+            android:layout_alignParentBottom="true"
+
+            android:layout_marginStart="37dp"
+
+            android:layout_marginBottom="253dp"
+
+            android:gravity="center" />
+
+        <TextView
+
+            android:id="@+id/rack"
+
+            android:layout_width="328dp"
+
+            android:layout_height="68dp"
+
+            android:layout_alignParentStart="true"
+
+            android:layout_alignParentTop="true"
+
+            android:layout_marginStart="40dp"
+
+            android:layout_marginTop="224dp"
+
+            android:gravity="center"
+
+            android:hint="rack" />
+
+
+
+        <TextView
+
+            android:id="@+id/board"
+
+            android:layout_width="324dp"
+
+            android:layout_height="74dp"
+
+            android:layout_alignParentStart="true"
+
+            android:layout_alignParentTop="true"
+
+            android:layout_marginStart="41dp"
+
+            android:layout_marginTop="140dp"
+
+            android:gravity="center"
+
+            android:hint="board" />
+
+
+
+        <TextView
+
+            android:id="@+id/score"
+
+            android:layout_width="82dp"
+
+            android:layout_height="36dp"
+
+            android:layout_alignParentStart="true"
+
+            android:layout_alignParentTop="true"
+
+            android:layout_marginStart="44dp"
+
+            android:layout_marginTop="91dp"
+
+            android:gravity="center"
+
+            android:hint="score" />
+
+
+
+        <TextView
+
+            android:id="@+id/turns"
+
+            android:layout_width="81dp"
+
+            android:layout_height="37dp"
+
+            android:layout_alignParentStart="true"
+
+            android:layout_alignParentTop="true"
+
+            android:layout_marginStart="162dp"
+
+            android:layout_marginTop="89dp"
+
+            android:gravity="center"
+
+            android:hint="turns" />
+
+
+
+        <TextView
+
+            android:id="@+id/maxturns"
+
+            android:layout_width="88dp"
+
+            android:layout_height="35dp"
+
+            android:layout_alignParentTop="true"
+
+            android:layout_alignParentEnd="true"
+
+            android:layout_marginTop="93dp"
+
+            android:layout_marginEnd="47dp"
+
+            android:gravity="center"
+
+            android:hint="max turns" />
+
+
+
+        <TextView
+
+            android:id="@+id/wordsplayed"
+
+            android:layout_width="384dp"
+
+            android:layout_height="59dp"
+
+            android:layout_alignParentStart="true"
+
+            android:layout_alignParentTop="true"
+
+            android:layout_marginStart="17dp"
+
+            android:layout_marginTop="23dp"
+
+            android:gravity="center"
+
+            android:hint="words played" />
+
+
+
+    </RelativeLayout>
+
+</LinearLayout>
